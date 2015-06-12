@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Perkapply</string>
+    <string name="perka_api_url">https://getperka.com/api/2/apply</string>
+
+    <string name="text_label_welcome">Welcome</string>
+    <string name="text_label_controls">Press back and next to navigate</string>
+
+    <string name="text_label_first_name">First Name</string>
+    <string name="text_label_last_name">Last Name</string>
+    <string name="text_label_email">E-Mail</string>
+
+    <string name="button_back">Back</string>
+    <string name="button_next">Next</string>
+    <string name="button_submit">Submit</string>
+
+    <string name="prompt_position">Select a Position</string>
+    <string name="github_profile">GitHub Profile (Optional)</string>
+    <string name="personal_website">Personal Website (Optional)</string>
+    <string name="resume">Resume</string>
+    <string name="file_selection">…</string>
+    <string name="referrer">Referrer (Optional)</string>
+
+
+    <string name="position_android_engineer">Android Engineer</string>
+    <string name="position_dev_ops">Dev Ops</string>
+    <string name="position_generalist">Generalist</string>
+    <string name="position_ios_engineer">iOS Engineer</string>
+    <string name="position_java_api_engineer">Java API Engineer</string>
+    <string name="position_java_platform_engineer">Java Platform Engineer</string>
+    <string name="position_javascript_engineer">Javascript Engineer</string>
+    <string name="position_software_test_engineer">Software Test Engineer</string>
+</resources>

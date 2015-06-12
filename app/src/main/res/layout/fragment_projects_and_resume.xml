@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_fragment_root">
+    <android.support.v7.widget.CardView style="@style/style_card">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/textfield_github"
+                style="@style/edit_text_field"
+                android:hint="@string/github_profile" />
+
+            <EditText
+                android:id="@+id/textfield_personal_site"
+                style="@style/edit_text_field"
+                android:hint="@string/personal_website" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/textfield_resume"
+                    style="@style/edit_text_field"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:hint="@string/resume" />
+
+                <Button
+                    android:id="@+id/button_file"
+                    android:layout_width="@dimen/button_file_width"
+                    android:layout_height="@dimen/button_file_height"
+                    android:text="@string/file_selection" />
+
+            </LinearLayout>
+
+            <include layout="@layout/buttons_navigation" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

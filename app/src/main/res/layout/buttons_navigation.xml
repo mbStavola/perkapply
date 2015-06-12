@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:useDefaultMargins="true">
+
+    <Button
+        android:id="@+id/button_back"
+        style="@style/buttons"
+        android:text="@string/button_back" />
+
+    <Space android:layout_width="@dimen/button_space" />
+
+    <Button
+        android:id="@+id/button_next"
+        style="@style/buttons"
+        android:text="@string/button_next" />
+</GridLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_red">#F44336</color>
+    <color name="bg_orange">#FF9800</color>
+    <color name="bg_yellow">#FFEB3B</color>
+
+    <color name="bg_green">#4CAF50</color>
+
+    <color name="bg_blue">#2196F3</color>
+    <color name="bg_indigo">#3F51B5</color>
+
+
+    <color name="ab_red">#D32F2F</color>
+    <color name="ab_orange">#F57C00</color>
+    <color name="ab_yellow">#FBC02D</color>
+
+    <color name="ab_green">#388E3C</color>
+
+    <color name="ab_blue">#1976D2</color>
+    <color name="ab_indigo">#303F9F</color>
+</resources>

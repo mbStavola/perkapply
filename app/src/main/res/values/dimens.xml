@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="field_padding_bottom">18dp</dimen>
+    <dimen name="linear_layout_top_padding">40dp</dimen>
+    <dimen name="button_file_width">36dp</dimen>
+    <dimen name="button_file_height">36dp</dimen>
+    <dimen name="button_space">100dp</dimen>
+    <dimen name="root_padding">60dp</dimen>
+    <dimen name="card_padding">15dp</dimen>
+</resources>

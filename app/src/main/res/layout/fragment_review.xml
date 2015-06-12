@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/style_fragment_root">
+
+    <android.support.v7.widget.CardView style="@style/style_card">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/first_name"
+                        style="@style/review_text_field" />
+
+                    <EditText
+                        android:id="@+id/last_name"
+                        style="@style/review_text_field" />
+
+                    <EditText
+                        android:id="@+id/email"
+                        style="@style/review_text_field" />
+
+
+                    <EditText
+                        android:id="@+id/position"
+                        style="@style/review_text_field" />
+
+
+                    <EditText
+                        android:id="@+id/textfield_github"
+                        style="@style/review_text_field"
+                        android:hint="@string/github_profile"/>
+
+                    <EditText
+                        android:id="@+id/textfield_personal_site"
+                        style="@style/review_text_field"
+                        android:hint="@string/personal_website"/>
+
+                    <EditText
+                        android:id="@+id/textfield_resume"
+                        style="@style/review_text_field" />
+
+
+                    <EditText
+                        android:id="@+id/textfield_referral"
+                        style="@style/review_text_field"
+                        android:hint="@string/referrer"/>
+
+                    <GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:useDefaultMargins="true">
+
+                        <Button
+                            android:id="@+id/button_back"
+                            style="@style/buttons"
+                            android:text="@string/button_back" />
+
+                        <Space android:layout_width="@dimen/button_space" />
+
+                        <Button
+                            android:id="@+id/button_next"
+                            style="@style/buttons"
+                            android:text="@string/button_submit" />
+                    </GridLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
